@@ -1,28 +1,36 @@
-import { FaEnvelope, FaGithub, FaGithubAlt, FaTelegram } from 'react-icons/fa';
+import {
+  FaEnvelope,
+  FaGithub,
+  FaGithubAlt,
+  FaTelegram,
+  FaSkype,
+} from "react-icons/fa";
 
 const ContactBlock = ({ type, value }: propsType) => {
   console.log(new Date().getDate());
   const FontIcons = {
     email: <FaEnvelope />,
     telegram: <FaTelegram />,
+    skype: <FaSkype />,
     github: <FaGithub />,
   };
   var date = new Date();
   return (
-    <div className='contact-block mb-[25px] flex items-center gap-9'>
-      <div className='text-[45px]'>
-        {type === 'email' && FontIcons.email}
-        {type === 'telegram' && FontIcons.telegram}
+    <div className="contact-block mb-[25px] flex items-center gap-9">
+      <div className="text-[45px]">
+        {type === "email" && FontIcons.email}
+        {type === "telegram" && FontIcons.telegram}
+        {type === "skype" && FontIcons.skype}
         {date.getFullYear() >= 2022 &&
           date.getMonth() >= 3 &&
           date.getDate() >= 22 &&
-          type === 'github' &&
+          type === "github" &&
           FontIcons.github}
       </div>
 
       <div>
-        <h2 className='text-white text-[18px] uppercase'>
-          {type === 'github'
+        <h2 className="text-white text-[18px] uppercase">
+          {type === "github"
             ? date.getFullYear() >= 2022 &&
               date.getMonth() >= 3 &&
               date.getDate() >= 22 &&
@@ -30,7 +38,7 @@ const ContactBlock = ({ type, value }: propsType) => {
             : type}
         </h2>
         <p>
-          {type === 'github'
+          {type === "github"
             ? date.getFullYear() >= 2022 &&
               date.getMonth() >= 3 &&
               date.getDate() >= 22 &&

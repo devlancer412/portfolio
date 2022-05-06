@@ -10,22 +10,13 @@
       "title": "Education",
       "data": [
         {
-          "title": "McMaster University",
-          "subtitle": "http://mcmaster.com/",
+          "title": "Nanyang Technological University",
+          "subtitle": "https://www.ntu.edu.sg/",
           "address": "Hamilton, Canada",
           "duration": [2011, 2014],
-          "major": "Computer Programming",
-          "content": "A 4-year-course in McMaster, major in Computer Programming.",
+          "major": "Computer Science",
+          "content": "Bachelor of Computer Programming.",
           "label": ["C/C++", "JavaScript", "PHP"]
-        },
-        {
-          "title": "Sherbrooke University",
-          "subtitle": "https://www.usherbrooke.ca/",
-          "duration": [2015, 2019],
-          "address": "Sherbrooke, Canada",
-          "major": "Software Engineering",
-          "content": "Software Engineering course in Sherbrooke University",
-          "label": ["React", "Node.js", "MySql"]
         }
       ]
     },
@@ -33,90 +24,53 @@
       "title": "Experience",
       "data": [
         {
-          "title": "DynamicCoin",
-          "subtitle": "http://dynamiccoin.org/",
-          "duration": ["Oct 2018", "Dec 2019"],
-          "content": ["Supported users in chatting channels technically."],
-          "label": ["Wordpress", "PHP", "Mysql"]
-        },
-        {
-          "title": "Native Mobile App",
-          "subtitle": null,
-          "duration": ["Dec 2019", "Jan 2020"],
+          "title": "Self-Employed Freelancer",
+          "subtitle": "https://upwork.com/",
+          "duration": ["May 2020", "current"],
           "content": [
-            "Developed Native mobile apps using Java/Kotlin, ObjectiveC/Swift and hybrid apps using React-Native, Flutter,ionic, Exchange Platforms (Skyrus, Coinji, ETORO, Paxforex)."
+            "NFT minting dApp, marketplace, token issuance (smart contract on EVM & frontend web3 integration).",
+            "DeFi/DEX, asset management protocol development."
           ],
-          "label": ["React Native", "Java"]
+          "label": [
+            "Blockchain",
+            "Solidity",
+            "Smart Contract",
+            "React",
+            "Next.js",
+            "Next.js",
+            "ExpressJs",
+            "MySQL",
+            "MongoDB"
+          ]
         },
         {
-          "title": "eCommerce",
-          "duration": ["Jan 2020", "April 2020"],
+          "title": "Full Stack Developer",
+          "subtitle": "https://inova.io/",
+          "duration": ["Feb 2016", "Apr 2020"],
           "content": [
-            "Build real estate websites and eCommerce for several componies.",
-            " And maintained some sites and revamped web application and developed user-friendly website, including optimized check-out page that increased user clicks and subsequently customer purchases."
+            "Advocated interaction design best practices with a focus on consistency and usability",
+            "Developed 5+ SPAs using React/Redux.",
+            "Developed Backend API Server using Node.js, Express.js and MongoDB.\n Collaborated with the design team to defifine data structure."
           ],
-          "label": []
+          "label": [
+            "React",
+            "Next.js",
+            "Node.js",
+            "ExpressJs",
+            "Laravel",
+            "Django",
+            "MySQL",
+            "MongoDB"
+          ]
         },
         {
-          "title": "Admin Portal",
-          "duration": ["April 2020", "June 2020"],
+          "title": "Node.js Backend & Frontend Test Engineer",
+          "subtitle": "https://www.evantage-technology.com/",
+          "duration": ["Feb 2015", "Jan 2016"],
           "content": [
-            "Created from scratch the admin portal in React in a period of six weeks with features like  user roles, bulk content uploads using CSV files, a notification panel to send a notification to a particular set of users, and more."
+            "Refactoring and converting commercial CI project to Node.js.\n Built reusable React.js and Next.js components.\n Wrote code, resolved any problematic issues, and performed UI tests to optimize performance."
           ],
-          "label": []
-        },
-        {
-          "title": "A Simple dApp",
-          "duration": ["June 2020", "June 2020"],
-          "content": [
-            "Built a demo dApp for staking contract.",
-            "The graph for the staking contract tracking all events and allowing more advanced queries"
-          ],
-          "label": []
-        },
-        {
-          "title": "Third party integration",
-          "duration": ["June 2020", "July 2020"],
-          "content": [
-            "Traitable-analyzing traits based on data from third party open sea like Trait sniper but simple."
-          ],
-          "label": []
-        },
-        {
-          "title": "Formation, and AWS S3",
-          "duration": ["July 2020", "August 2020"],
-          "content": [
-            "Worked on a distributed team that operated under an Agile methodology."
-          ],
-          "label": []
-        },
-        {
-          "title": "Website for a restaurant",
-          "duration": ["August 2020", "December 2020"],
-          "content": [
-            "Built a large site for restaurants. It provides the statistics of restaurant rating in Europe. Integrated from the thrid parties."
-          ],
-          "label": ["React", "Tailwind"]
-        },
-        {
-          "title": "Personal Website",
-          "duration": ["January 2021", "Feburary 2021"],
-          "content": [
-            "Built a personal site that provides RTC, Video/Audio call, Schedule."
-          ],
-          "label": ["React", "Tailwind"]
-        },
-        {
-          "title": "NFT Minting Site & Marketplace",
-          "duration": ["Feburary 2021", "August 2021"],
-          "content": ["Built a minting site and marketplace."],
-          "label": ["Laravel", "PostgreSql"]
-        },
-        {
-          "title": "NFT Minting Site & Marketplace",
-          "duration": ["Feburary 2021", "August 2021"],
-          "content": ["Built a minting site and marketplace."],
-          "label": ["Laravel", "PostgreSql"]
+          "label": ["React", "Next.js", "SCSS", "PHP", "Mysql"]
         }
       ]
     }

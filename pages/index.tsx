@@ -37,9 +37,8 @@ const Home: NextPage = () => {
               </div>
 
               <p className="text-[18px] mb-0 mt-[20px]">
-                I am a Full-Stack Blockchain developer, who focuses on UI/UX,
-                SEO and Smart Contract. First and foremost, my focus would be on
-                fulfilling your needs.
+                I am a highly motivated self-driven developer with over 7 years
+                of experience in Blockchain and Web technologies.
               </p>
             </div>
             <div className="hexagon-menu">
